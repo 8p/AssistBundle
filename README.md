@@ -1,7 +1,7 @@
 Symfony AssistBundle [![Latest Stable Version](https://poser.pugx.org/eightpoints/assist-bundle/v/stable.png)](https://packagist.org/packages/eightpoints/assist-bundle) [![Total Downloads](https://poser.pugx.org/eightpoints/assist-bundle/downloads.png)](https://packagist.org/packages/eightpoints/assist-bundle)
 ====================
 [![knpbundles.com](http://knpbundles.com/8p/AssistBundle/badge)](http://knpbundles.com/8p/AssistBundle)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/5cf56080-9357-49a3-83b2-a3dd20a8a590/big.png)](https://insight.sensiolabs.com/projects/5cf56080-9357-49a3-83b2-a3dd20a8a590)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/b10eced0-9f76-4098-b43e-d4b74ef28174/big.png)](https://insight.sensiolabs.com/projects/b10eced0-9f76-4098-b43e-d4b74ef28174)
 
 Small Improvements/Helpers for Symfony.
 
