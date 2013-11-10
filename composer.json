@@ -1,0 +1,32 @@
+{
+    "name":        "eightpoints/assist-bundle",
+    "type":        "symfony-bundle",
+    "description": "Provides some Helpers/Improvements for Symfony",
+    "keywords":    ["bundle", "helper", "symfony", "assist", "assistant", "command"],
+    "homepage":    "https://github.com/8p/AssistBundle",
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name":     "Florian Preusner",
+            "email":    "florian.preusner@8points.de",
+            "homepage": "https://github.com/florianpreusner"
+        },
+        {
+            "name":     "Community",
+            "homepage": "https://github.com/8p/AssistBundle/contributors"
+        }
+    ],
+
+    "require": {
+        "php":                            ">=5.3.3"
+    },
+
+    "target-dir": "EightPoints/Bundle/AssistBundle",
+    
+    "autoload": {
+        "psr-0": {
+            "EightPoints\\Bundle\\AssistBundle": ""
+        }
+    }
+}
