@@ -35,8 +35,21 @@ Helpers
 
 CommandTimestampOutput
 ----------------------
-Description is following...
+To use a timestamp for each printed line on your command just inject the CommandTimestampOutput into your console application.
+app/console
+``` php
+use EightPoints\Bundle\AssistBundle\Console\Output\ConsoleTimestampOutput;
 
+$output = new ConsoleTimestampOutput();
+...
+$application->run($input, $output);
+```
+
+Example output:
+``` 
+[20:09:30 :: 0.002]     Starting import...
+[20:09:31 :: 8.058]     Finished import
+```
 
 Authors
 -------
