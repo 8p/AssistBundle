@@ -8,7 +8,7 @@ use       Symfony\Component\HttpKernel\Bundle\Bundle,
 /**
  * Class AssistBundle
  *
- * @package   EightPoints\Bundle\GuzzleBundle
+ * @package   EightPoints\Bundle\AssistBundle
  *
  * @copyright 8points IT
  * @author    Florian Preusner
