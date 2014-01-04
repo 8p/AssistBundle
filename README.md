@@ -65,4 +65,4 @@ This bundle is licensed under the MIT License - see the LICENSE file for details
 
 [1]: https://packagist.org/packages/eightpoints/assist-bundle
 [2]: http://twitter.com/floeH
-[3]: https://github.com/8p/GuzzleBundle/graphs/contributors
+[3]: https://github.com/8p/AssistBundle/graphs/contributors
