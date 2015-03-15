@@ -40,7 +40,7 @@ class ConsoleTimestampOutput extends ConsoleOutput implements ConsoleOutputInter
 
         $this->lastTime = microtime(true);
 
-        parent::__construct($verbosity = self::VERBOSITY_NORMAL, $decorated = null, $formatter = null);
+        parent::__construct($verbosity, $decorated, $formatter);
     }
 
     /**

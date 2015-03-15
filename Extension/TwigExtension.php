@@ -2,7 +2,6 @@
 
 namespace EightPoints\Bundle\AssistBundle\Extension;
 
-use Twig_Function_Method;
 use Symfony\Component\Form\Extension\Core\DataTransformer\DateTimeToStringTransformer;
 use Symfony\Component\Form\Extension\Core\DataTransformer\DateTimeToTimestampTransformer;
 use Symfony\Component\Translation\Translator;
