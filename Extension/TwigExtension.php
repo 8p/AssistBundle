@@ -41,7 +41,8 @@ class TwigExtension extends \Twig_Extension {
             'url'           => new \Twig_Filter_Method($this, 'url'),
             'only'          => new \Twig_Filter_Method($this, 'only'),
             'explode'       => new \Twig_Filter_Method($this, 'explode'),
-            'time_in_words' => new \Twig_Filter_Method($this, 'timeInWords')
+            'time_in_words' => new \Twig_Filter_Method($this, 'timeInWords'),
+			'html_attr'     => new \Twig_Filter_Method($this, 'htmlAttributes'),
         );
     } // end: getFilters()
 
@@ -307,4 +308,23 @@ class TwigExtension extends \Twig_Extension {
             return $this->translator->trans('%days days ago', array('%days' => round($distance_in_minutes/1440)));
         }
     }
+
+	/**
+     * Convert hash to html attributes string
+     *
+     * @author Florian Preusner <florian.preusner@8points.de>
+     * @param  array  $attributes
+     * @return string $return
+     */
+    public function htmlAttributes(array $attributes) {
+
+		$return = '';
+
+		foreach($attributes as $name => $value) {
+
+			$return .= sprintf('%s="%s" ', $name, $value);
+		}
+
+        return $return;
+    } // end: htmlAttributes()
 } // end: TwigExtension
